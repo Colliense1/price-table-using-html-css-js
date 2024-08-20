@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+.wrapper .main_content .packeges h2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 50px;
+    color: #cb1228;
+
+}
+
+.wrapper .main_content hr {
+    width: 60px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: 5px solid #cb1228;
+}
+
+.packeges p {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+    color: #4d4d4d;
+}
+
+.packeges .package_columns {
+    float: left;
+    margin-top: 15px;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.package_price {
+    list-style-type: none;
+    border: 1px solid #e9e6e6;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.package_price .header1 {
+    background-color: #5b0f17;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.package_price li {
+    border-bottom: 1px solid #e9e6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+.package_price .grey {
+    background-color: #e9e6e6;
+    font-size: 20px;
+}
+
+#container1111 {
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
+
+#el,
+#dollarsign,
+#increase,
+#decrease {
+    font-size: 40px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+#room {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 7px;
+}
+
+.roomtext {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 7px;
+
+}
+
+#procontainer1111 {
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
+
+#proel,
+#prodollarsign,
+#proincrease,
+#prodecrease {
+    font-size: 40px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+#proroom {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 7px;
+}
+
+.proroomtext {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 7px;
+
+}
+
+#button {
+    background-color: #cb1228;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .packeges .package_columns {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.package_price:hover {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.527);
+}

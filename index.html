@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="package.css">
+    <title>Pricing Table in HTML CSS & JS</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main_content">
+
+            <div class="packeges">
+                <h2 id="package">Packages.</h2>
+
+                <hr>
+
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua."Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+
+
+                <div class="package_columns">
+                    <ul class="package_price">
+                        <li class="header1">Basic</li>
+                        <li class="grey">Floorplanning</li>
+                        <li>10 hours support</li>
+                        <li>Photography</li>
+                        <li>20% Furniture discount</li>
+                        <li>Good deals</li>
+                        <li>
+                            <div id="container1111">
+                                <input id="decrease" type="button" value="-" />
+                                <span id="dollarsign">$</span><span id="el">199</span>
+                                <input id="increase" type="button" value="+" /> <br>
+                            </div>
+
+                            <span id="room">1</span> <span class="roomtext">room</span>
+
+                        </li>
+                        <li class="grey"><a href="#package" onclick="submit1()" id="button">Sign
+                                Up</a></li>
+                        <li class="hide_btn_diplay1">
+                            <p id="result_display1"></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="package_columns">
+                    <ul class="package_price">
+                        <li class="header1" style="background-color:#760a16">Professional</li>
+                        <li class="grey">Floorplanning</li>
+                        <li>50 hours support</li>
+                        <li>Photography</li>
+                        <li>50% Furniture discount</li>
+                        <li>Great deals</li>
+                        <li>
+                            <div id="procontainer1111">
+                                <input id="prodecrease" type="button" value="-" />
+                                <span id="prodollarsign">$</span><span id="proel">249</span>
+                                <input id="proincrease" type="button" value="+" /> <br>
+                            </div>
+
+                            <span id="proroom">1</span> <span class="proroomtext">room</span>
+
+
+                        </li>
+                        <li class="grey"><a href="#package" type="button" onclick="submit()" id="button">Sign
+                                Up</a>
+                        </li>
+
+                        <li id="hide_btn_diplay" class="hidden">
+                            <p id="result_display" class="hidden"></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="package.js"></script>
+
+</body>
+
+</html>
